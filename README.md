@@ -21,12 +21,16 @@ bash
 
 
 Flujo de Trabajo
+
+
 1. Preparación de Datos
 El primer paso consiste en la preparación de los datos. Los datos de entrada contienen múltiples registros, algunos de los cuales pueden estar duplicados. Se realizaron los siguientes pasos:
 
 Concatenación de columnas nit_enmascarado, num_oblig_orig_enmascarado y num_oblig_enmascarado para generar el campo ID.
 Validación y eliminación de duplicados en la columna ID.
 Imputación de valores faltantes (NaN) en el conjunto de datos utilizando ceros (0).
+
+
 2. Entrenamiento del Modelo
 Se utilizó un modelo de Random Forest Classifier y Gradient Boosting de scikit-learn para entrenar el modelo.
 Pasos realizados:
@@ -34,8 +38,11 @@ Pasos realizados:
 Selección de las características más importantes para el modelo.
 Entrenamiento del modelo con los datos preparados.
 Validación del modelo utilizando métricas de precisión y recall.
+
+
 3. Generación de Predicciones
 Una vez entrenado el modelo, se realizaron predicciones sobre un conjunto de datos de prueba. Las predicciones generadas son probabilidades que se convierten en valores binarios (0 o 1) utilizando un umbral de 0.5.
+
 
 4. Archivo de Salida
 El archivo de salida final contiene dos columnas:
