@@ -19,6 +19,7 @@ bash
 └── requirements.txt          # Lista de dependencias necesarias para ejecutar el proyecto
 ```
 
+
 Flujo de Trabajo
 1. Preparación de Datos
 El primer paso consiste en la preparación de los datos. Los datos de entrada contienen múltiples registros, algunos de los cuales pueden estar duplicados. Se realizaron los siguientes pasos:
