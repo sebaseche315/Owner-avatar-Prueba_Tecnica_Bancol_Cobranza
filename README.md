@@ -5,6 +5,7 @@ https://www.kaggle.com/competitions/prueba-analitica-modelo-opciones-de-pago/ove
 Este repositorio contiene la solución desarrollada para una prueba técnica de predicción utilizando un modelo de Random Forest y de Gradient Boosting. El objetivo principal es predecir una variable binaria (0 o 1) asociada a una entidad identificada mediante un ID compuesto por tres variables concatenadas. La solución se implementa en Python, utilizando bibliotecas como pandas, scikit-learn, y numpy.
 
 Estructura del Proyecto
+''
 bash
 ├── src/                      # Carpeta con los scripts de procesamiento y predicción
 │   ├── ETL_prueba_op_base_pivot_var_rpta_alt_enmascarado_trtest.py    # Script ETL del dataset prueba_op_base_pivot_var_rpta_alt_enmascarado_trtest
@@ -15,6 +16,7 @@ bash
 │   └── Datos de Prueba.py         # Script para generar las predicciones y el archivo final
 ├── README.md                 # Archivo de documentación del proyecto
 └── requirements.txt          # Lista de dependencias necesarias para ejecutar el proyecto
+''
 
 Flujo de Trabajo
 1. Preparación de Datos
