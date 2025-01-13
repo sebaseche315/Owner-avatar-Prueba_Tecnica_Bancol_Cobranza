@@ -1,1 +1,1 @@
-# Owner-avatar-Prueba_Tecnica_Bancol_Cobranza
+# Prueba_Tecnica_Bancol_Cobranza
