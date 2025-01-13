@@ -49,11 +49,13 @@ El archivo de salida final contiene dos columnas:
 
 ID: Identificador único compuesto por nit_enmascarado, num_oblig_orig_enmascarado y num_oblig_enmascarado concatenados por el separador #.
 var_rpta_alt: Variable binaria con el valor 0 o 1 correspondiente a la predicción.
-Copiar código
+
+```python
 ID,var_rpta_alt
 250631#175418#912682,1
 217161#1054045#26297,0
 443187#754930#325412,1
 224370#328405#754753,0
+```
 
 Sebastian Echeverri Parra
